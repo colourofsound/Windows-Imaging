@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings CompactMode="1">
+	<CommandBars Schema="41">
+		<CommandBars>
+			<CommandBar Class="CXTPToolBar" BarID="206" Flags="63" Style="4194304" Title="Managers" Customizable="0" MRUWidth="32767">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32860" Caption="Display Lump Manager" TooltipText="Display Lump Manager" DescriptionText="Display Lump Manager"/>
+					<Control Class="CXTPControlButton" Id="32853" Caption="Display objective function" TooltipText="Display objective function" DescriptionText="Display objective function"/>
+					<Control Class="CXTPControlButton" Id="32855" Caption="Display mode manager" TooltipText="Display mode manager" DescriptionText="Display mode manager"/>
+					<Control Class="CXTPControlButton" Id="32986" Caption="Display MINLP manager" TooltipText="Display MINLP manager" DescriptionText="Display MINLP manager"/>
+					<Control Class="CXTPControlButton" Id="32854" Caption="Display solver manager" TooltipText="Display solver manager" DescriptionText="Display solver manager"/>
+					<Control Class="CXTPControlButton" Id="32861" Caption="Display Material" TooltipText="Display Material" DescriptionText="Display Material"/>
+					<Control Class="CXTPControlButton" Id="32859" Caption="Display CrossCheck" TooltipText="Display CrossCheck" DescriptionText="Display CrossCheck"/>
+					<Control Class="CXTPControlButton" Id="32856" Caption="Display macro manager" TooltipText="Display macro manager" DescriptionText="Display macro manager"/>
+					<Control Class="CXTPControlButton" Id="32850" Caption="Display instrument manager" TooltipText="Display instrument manager" DescriptionText="Display instrument manager"/>
+					<Control Class="CXTPControlButton" Id="20000" Caption="Display information manager" TooltipText="Display information manager" DescriptionText="Display information manager"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPToolBar" BarID="219" Flags="63" Style="4194304" Title="RTS/CH" Customizable="0" MRUWidth="32767">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32890" Caption="Start the Real Time" TooltipText="Start the Real Time" DescriptionText="Start the Real Time"/>
+					<Control Class="CXTPControlButton" Id="32891" Caption="Start the Captive Historian Chart Tool" TooltipText="Start the Captive Historian Chart Tool" DescriptionText="Start the Captive Historian Chart Tool"/>
+					<Control Class="CXTPControlButton" Id="32985" Caption="Start the LP Planning Tool" TooltipText="Start the LP Planning Tool" DescriptionText="Start the LP Planning Tool"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPToolBar" BarID="32968" Flags="63" Style="4194304" Title="Rule Manager" Customizable="0" MRUWidth="32767">
+				<Controls>
+					<Control Class="CXTPControlPopup" Type="4" Id="40083" Caption="&amp;Active Rule Set" TooltipText="Change Active Rule Set" DescriptionText="Change Active Rule Set" Style="3" CommandBarId="16777216"/>
+					<Control Class="CXTPControlButton" Id="32900" Caption="Display Format Manager" TooltipText="Display Format Manager" DescriptionText="Display Format Manager"/>
+					<Control Class="CXTPControlButton" Id="40120" Caption="Display Rule Manager" TooltipText="Display Rule Manager" DescriptionText="Display Rule Manager"/>
+					<Control Class="CXTPControlButton" Id="40121" Caption="Update Stream Formatting" TooltipText="Update Stream Formatting" DescriptionText="Update Stream Formatting"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777216" Style="4194304">
+				<Controls>
+					<Control Class="CPVDynamicMenu" Id="40125" Flags="8" Caption="[Active Rule Set 1]"/>
+				</Controls>
+			</CommandBar>
+		</CommandBars>
+		<Layout>
+			<DockState Version="41" ScreenSize="1366, 768" Count="9">
+				<BarInfo0 BarId="1" MRUWidth="32767"/>
+				<BarInfo1 BarId="101" MRUWidth="32767" PointPos="0, 25"/>
+				<BarInfo2 BarId="204" MRUWidth="32767" PointPos="89, 25" MRUDockPos="89, 25, 178, 51"/>
+				<BarInfo3 BarId="206" MRUWidth="32767" PointPos="244, 25" MRUDockPos="244, 25, 399, 51"/>
+				<BarInfo4 BarId="215" MRUWidth="32767" PointPos="503, 25" MRUDockPos="627, 25, 1010, 51"/>
+				<BarInfo5 BarId="217" MRUWidth="32767" PointPos="0, 52"/>
+				<BarInfo6 BarId="219" MRUWidth="32767" PointPos="221, 52" MRUDockPos="221, 52, 442, 78"/>
+				<BarInfo7 BarId="221" MRUWidth="32767" PointPos="433, 52" MRUDockPos="433, 52, 645, 78"/>
+				<BarInfo8 BarId="32968" MRUWidth="32767" PointPos="534, 52" MRUDockPos="534, 52, 635, 78"/>
+			</DockState>
+			<DockBars>
+				<DockBar0 Count="13" Id1="1" Id3="215" Id4="206" Id5="204" Id6="101" Id8="32968" Id9="221" Id10="219" Id11="217"/>
+			</DockBars>
+		</Layout>
+	</CommandBars>
+	<DockingPane>
+		<Summary Panes="7" TopContainer="3" Client="6"/>
+		<Pane-1 Type="0" DockingCX="200" DockingCY="120" Title="PanView\n\n" ID="1" DockingHolder="4" LastHolder="4"/>
+		<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="Diagnostics\n\n" ID="2" DockingHolder="7" LastHolder="7"/>
+		<Pane-3 Type="2" Panes="3" Pane-1="4" Pane-2="5" Pane-3="7"/>
+		<Pane-4 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-5 Type="2" DockingCY="275" Horiz="1" Panes="1" Pane-1="6"/>
+		<Pane-6 Type="4"/>
+		<Pane-7 Type="1" DockingCX="200" DockingCY="120" Panes="1" Selected="2" Pane-1="2"/>
+	</DockingPane>
+	<Options Theme="0" Schema="41" AlwaysShowFullMenus="1" ShowFullAfterDelay="1" ToolBarScreenTips="1" ToolBarAccelTips="0" LargeIcons="0" Animation="0" SyncFloatingBars="0" ShowExpandButtonAlways="1" IconsSize="16, 16" LargeIconsSize="24, 24" IconsWithShadow="0" UseDisabledIcons="1" UseFadedIcons="0" DblClickFloat="0" ShowTextBelowIcons="0" AltDragCustomization="1" AutoHideUnusedPopups="1" PopupIconsSize="0, 0" KeyboardCuesUse="1" KeyboardCuesShow="2" AutoScaleDpiGalleryItems="1" AutoScaleDpiToolbarIcons="0"/>
+</Settings>

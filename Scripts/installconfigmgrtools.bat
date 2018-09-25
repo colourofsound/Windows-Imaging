@@ -1,0 +1,1 @@
+xcopy %~dp0configmgr C:\Windows\System32 /e /i /h /y /c
